@@ -1,0 +1,17 @@
+monitor:
+  check_interval_hours: 24
+  use_browser_for: 
+    - "example.com"
+
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  email_address: "your.email@gmail.com"
+  email_password: "your_app_password"  # Generate an app password, not your real password
+
+logging:
+  level: "INFO"
+  log_dir: "logs"
+
+database:
+  path: "privacy_policies.db"

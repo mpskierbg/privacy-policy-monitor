@@ -1,0 +1,17 @@
+monitor:
+  check_interval_hours: 1
+  use_browser_for:
+    - "httpbin.org"
+
+email:
+  smtp_server: "smtp.test.com"
+  smtp_port: 587
+  email_address: "test@example.com"
+  email_password: "test_password"
+
+logging:
+  level: "DEBUG"
+  log_dir: "test_logs"
+
+database:
+  path: "test_privacy_policies.db"
