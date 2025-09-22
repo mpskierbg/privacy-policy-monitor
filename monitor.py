@@ -2,9 +2,7 @@ from database import get_db_connection
 from database import mark_site_as_requires_browser
 import requests
 from bs4 import BeautifulSoup
-import difflib
 from datetime import datetime
-import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import config # type: ignore
